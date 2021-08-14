@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  background-color: rgb(222, 233, 72);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.allImage{
+  display: flex;
+  flex-direction: row;
+  background-color:aqua;
+  
+
+}
+.specifier{
+  padding: 0px 20px 0 20px;
+}
+
+.eachImage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.uploadButton{
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  background-color: blue;
+  color: yellow;
+  height: 30px;
+  
+}
+
+.UploadImage{
+  position: absolute;
+  background-color:yellowgreen;
+  height: 90%;
+  width: 100%;
+  margin-top: -9px;
+  padding-top: 40px;
+ 
+  padding-left: 20px;
+  
+}
+.imageForm{
+
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.popupview{
+
+  
+  position: absolute;
+  height: 400px;
+}
